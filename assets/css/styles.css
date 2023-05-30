@@ -1,0 +1,250 @@
+#loan-calculator .loan-number-years {
+  background: linear-gradient(
+    to right,
+    #ffffff 0%,
+    #ffffff 50%,
+    #fff 50%,
+    #fff 100%
+  );
+  border: solid 1px #ffffff;
+  border-radius: 8px;
+  height: 7px;
+  width: 100%;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+}
+#loan-calculator input[type="text"],
+#loan-calculator input[type="email"],
+#loan-calculator input[type="url"],
+#loan-calculatorinput[type="password"],
+#loan-calculator input[type="search"],
+#loan-calculator input[type="number"],
+#loan-calculator input[type="tel"],
+#loan-calculator input[type="range"],
+#loan-calculator input[type="date"],
+#loan-calculator input[type="month"],
+#loan-calculator input[type="week"],
+#loan-calculator input[type="time"],
+#loan-calculator input[type="datetime"],
+#loan-calculator input[type="datetime-local"],
+#loan-calculator input[type="color"],
+#loan-calculator textarea {
+  color: #fff;
+  /* border: 1px solid #ccc; */
+  border-radius: 3px;
+  padding: 3px;
+}
+section#loan-calculator {
+  background: #3795d2;
+  padding: 120px 0;
+}
+
+section#loan-calculator .title h3 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 73px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section#loan-calculator .title p {
+  color: #fff;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+section#loan-calculator .row.sptable {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section#loan-calculator .allbtns {
+  display: flex;
+  justify-content: center;
+  padding: 94px 0 0 0;
+}
+
+section#loan-calculator .t-right {
+  text-align: right;
+}
+
+section#loan-calculator .parentbtn {
+  display: flex;
+  justify-content: center;
+  padding: 39px 0 0 0;
+}
+
+section#loan-calculator label {
+  color: #fff;
+  font-size: 20px;
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  border: 0 !important;
+  margin-bottom: 14px;
+}
+section#loan-calculator .parentage {
+  color: #fff;
+  font-size: 20px;
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  border: 0 !important;
+  margin-bottom: 14px;
+}
+
+section#loan-calculator table.table tr td p {
+  width: max-content;
+  border-bottom: 2px solid #fff;
+}
+
+section#loan-calculator .gap {
+  margin: 60px 0;
+}
+
+section#loan-calculator input#loanamount {
+  border: 0;
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-family: "Lato", sans-serif;
+  background: transparent;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  outline: none;
+  width: 204px;
+}
+
+section#loan-calculator input::placeholder {
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  font-size: 20px;
+  opacity: 50%;
+  font-weight: 300;
+}
+
+section#loan-calculator select {
+  word-wrap: normal;
+  border: 0;
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-family: "Lato", sans-serif;
+  background: transparent;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-size: 20px;
+  width: 100%;
+  font-weight: 300;
+  padding-bottom: 17px;
+  outline: none;
+}
+
+section#loan-calculator h4 {
+  color: #fff;
+}
+
+section#loan-calculator select option {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: "Lato", sans-serif;
+  color: #000000;
+  font-size: 20px;
+  opacity: 50%;
+  font-weight: 300;
+}
+
+section#loan-calculator .cbtn {
+  border: 0;
+  background: #fff;
+  border-radius: 22px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #3795d2 !important;
+  padding: 10px 20px;
+  margin: 0px;
+  transition: 0.7s;
+}
+
+section#loan-calculator .cbtn:hover {
+  background-color: #000;
+  color: #fff !important;
+}
+
+section#loan-calculator input.cbtn.sp {
+  font-size: 20px;
+  font-weight: 300;
+  padding: 10px 34px;
+  margin: 0;
+}
+
+#loan-calculator .gap {
+  margin: 60px 0;
+}
+.loan-interest-rate,
+.loan-total-amount {
+  border: 0;
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-family: "Lato", sans-serif;
+  background: transparent;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  outline: none;
+}
+
+.field {
+    /* display: flex; */
+    align-items: center;
+    flex-direction: row;
+    align-content: flex-start;
+    padding: 30px 0px 30px 0px;
+    position: relative;
+    gap: 20px;
+}
+.field label {
+    width: auto;
+}
+
+.remove-field {
+    position: relative;
+    left: calc(100% - 47px);
+    border: 0;
+    background: #9f9f9f !important;
+    border-radius: 100%;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 600 !important;
+    color: #ffffff !important;
+    padding: 5px 10px 8px 11px !important;
+    margin: 0px;
+    transition: 0.7s;
+    text-shadow: 1px 0px #9b9b9b;
+}
+
+.remove-field:hover {
+    position: relative;
+    left: calc(100% - 47px);
+    border: 0;
+    background: #000000 !important;
+    border-radius: 100%;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 600 !important;
+    color: #ffffff !important;
+    padding: 5px 10px 8px 11px !important;
+    margin: 0px;
+    transition: 0.7s;
+    text-shadow: 1px 0px #9b9b9b;
+}
+
+.v-border+.v-border {
+    border-left:1px solid #ffffff;
+}
+.v-border {
+    padding: 30px 10px 30px 10px;
+}
